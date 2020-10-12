@@ -15,7 +15,7 @@ response = request.json()
 
 # Object to represent the API response
 api_response = ApiResponse()
-api_response.ProcessObject(response)
+api_response.process_object(response)
 
 if api_response.success:
     # Build bearer token value
@@ -35,7 +35,7 @@ if api_response.success:
 
     # Poly ID request API response objkect
     poly_api_response = ApiResponse()
-    poly_api_response.ProcessObject(poly_id_response)
+    poly_api_response.process_object(poly_id_response)
 
     if poly_api_response.success:
         print(

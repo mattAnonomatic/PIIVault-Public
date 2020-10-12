@@ -10,7 +10,7 @@ class ApiResponse:
         self.data = {}
         self.error = ApiError()
 
-    def ProcessObject(self, response):
+    def process_object(self, response):
         self.success = response["Success"]
         
         if self.success:
