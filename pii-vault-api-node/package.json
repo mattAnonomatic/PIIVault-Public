@@ -1,0 +1,17 @@
+{
+  "name": "piivault-api-consumption",
+  "version": "1.0.0",
+  "description": "API Consumption Examples of the PII Vault API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Katchmar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.49.4"
+  }
+}

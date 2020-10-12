@@ -1,0 +1,9 @@
+{
+  "AccountId": "[you account id here]",
+  "ApiKey": "[you api key]",
+  "Urls": {
+    "AuthLoginUrl": "https://api.piivault.com/api/auth/login",
+    "GetPolyIdUrl": "https://api.piivault.com/api/profiles/GetPolyId",
+    "GetPolyIdBulk": "https://api.piivault.com/api/profiles/GetPolyIdBulk"
+  }
+}
